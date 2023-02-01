@@ -1,4 +1,4 @@
-## [DOCS](https://runninglearner.github.io/wanted-pre-onboarding-challenge-fe-2/out/index.html)
+## [완성된 DOCS 링크!](https://runninglearner.github.io/wanted-pre-onboarding-challenge-fe-2/out/index.html)
 
 ## Intro about RunningLearner
 
