@@ -1,0 +1,19 @@
+{
+  "name": "wanted-pre-onboarding-challenge-fe-2",
+  "version": "1.0.0",
+  "description": "웹개발자가 되고자 합니다. 프론트와 백엔드를 아우를 수 있는 올라운더형 개발자가 되고싶습니다!<br>  현재 관심있게 학습중인 것들은 Vue.js, Spring, Nest.js 입니다! <br> 욕심이 많은 만큼 더 많이 움직이려 노력합니다! <br> Run more Learn more Get more!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RunningLearner/wanted-pre-onboarding-challenge-fe-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RunningLearner/wanted-pre-onboarding-challenge-fe-2/issues"
+  },
+  "homepage": "https://github.com/RunningLearner/wanted-pre-onboarding-challenge-fe-2#readme"
+}
