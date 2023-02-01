@@ -1,12 +1,15 @@
+## [DOCS](https://runninglearner.github.io/wanted-pre-onboarding-challenge-fe-2/out/index.html)
+
 ## Intro about RunningLearner
-웹개발자가 되고자 합니다. 프론트와 백엔드를 아우를 수 있는 올라운더형 개발자가 되고싶습니다!<br> 
+
+웹개발자가 되고자 합니다. 프론트와 백엔드를 아우를 수 있는 올라운더형 개발자가 되고싶습니다!<br>
 현재 관심있게 학습중인 것들은 Vue.js, Spring, Nest.js 입니다! <br>
 욕심이 많은 만큼 더 많이 움직이려 노력합니다! <br>
 Run more Learn more Get more!
 
 ## 챌린지 과제 가이드
 
->요구 사항을 구현하지 않고 설계만합니다.
+> 요구 사항을 구현하지 않고 설계만합니다.
 
 - Todo 앱을 JSDoc으로 문서화하는 챌린지 과제입니다.
 - 모든 요구사항은 JSDoc을 기반으로 수행합니다.
@@ -20,7 +23,8 @@ Run more Learn more Get more!
 ## 📝 Requirements
 
 ### 필수 요구사항
->아래의 Todo 앱 요구사항을 참고하여
+
+> 아래의 Todo 앱 요구사항을 참고하여
 
 - 필요한 데이터를 모두 모델링한다.
 - 사용되는 모든 함수를 `선언부만` 만든다.
@@ -61,7 +65,6 @@ Todo {
 - 모든 할 일을 제거할 수 있다.
 - 특정 할 일의 특정 태그를 삭제할 수 있다.
 - 특정 할 일의 모든 태그를 제거할 수 있다.
-
 
 #### Modeling (Shape)
 
