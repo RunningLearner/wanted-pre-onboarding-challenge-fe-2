@@ -1,12 +1,11 @@
-/**
- * Todo 객체 
- * @typedef {Object} Todo
- * @property {number} id - 아이디
- * @property {string} content - 내용
- * @property {boolean} isCompleted - 완료여부
- * @property {string} category - 카테고리
- * @property {string[]} [tags] - 태그들
- */
+
+interface Todo{
+    id: number;
+    content: string;
+    isCompleted: boolean;
+    category: string;
+    tags?: string[];
+}
 
 /**
  * Todo 객체를 추가한다.
@@ -15,14 +14,14 @@
  * @returns {void}
  * @todo 기능 구현 필요
  */
-function createTodo(todo) {}
+interface createTodo{ (todo: Todo): void}
 
 /**
  * 모든 Todo들을 가져온다.
  * @returns {Todo[]} Todo 배열
  * @todo 기능 구현 필요
  */
-function getTodos() {}
+interface getTodos {():Todo[]}
 
 /**
  * 특정 Todo를 가져온다.
@@ -30,7 +29,7 @@ function getTodos() {}
  * @returns {Todo} 해당 Id 값을 가진 Todo
  * @todo 기능 구현 필요
  */
-function getTodoById(id) {}
+interface getTodoById {(id:number): Todo}
 
 
 /**
@@ -40,7 +39,7 @@ function getTodoById(id) {}
  * @returns {void}
  * @todo 기능 구현 필요
  */
-function updateTodo(id, todo) {}
+interface updateTodo {(id: number, todo:Todo): void}
 
 
 /**
@@ -49,14 +48,14 @@ function updateTodo(id, todo) {}
  * @returns {void}
  * @todo 기능 구현 필요
  */
-function deleteTodo(id) {}
+interface deleteTodo {(id:number):void}
 
 /**
  * 모든 Todo를 삭제한다.
  * @returns {void}
  * @todo 기능 구현 필요
  */
-function deleteTodos() {}
+interface deleteTodos {():void}
 
 /**
  * 해당 id에 해당하는 tag를 삭제한다.
@@ -65,7 +64,7 @@ function deleteTodos() {}
  * @returns {void}
  * @todo 기능 구현 필요
  */
-function deleteTodoTag(id, tag) {}
+interface deleteTodoTag {(id:number, tag:string): void}
 
 
 /**
@@ -74,5 +73,5 @@ function deleteTodoTag(id, tag) {}
  * @returns {void} 
  * @todo 기능 구현 필요
  */
-function deleteTodoTags(id) {}
+interface deleteTodoTags {(id:number): void}
 
